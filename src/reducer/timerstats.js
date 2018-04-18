@@ -6,7 +6,9 @@ export default (timerStatsState = defaultTimerStats, action) => {
 
   switch (type) {
     case ADD_TIMER_DATA:
-      return timerStatsState.concat({...payload.timerdata, id: randomId});
+      return timerStatsState
+        .concat({...payload.timerdata, id: randomId});
+
     default:
       return timerStatsState;
   };

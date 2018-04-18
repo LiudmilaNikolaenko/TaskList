@@ -6,11 +6,16 @@ export default (taskListState = defaultTaskList, action) => {
 
   switch (type) {
     case ADD_TASK:
-      return taskListState.concat(randomId);
+      return taskListState
+        .concat(randomId);
+
     case DELETE_TASK:
-      return taskListState.filter(id => id !== payload.id);
+      return taskListState
+        .filter(id => id !== payload.id);
+
     case SORT_TASK_LIST:
       return payload.tasklist;
+
     default:
       return taskListState;
   };

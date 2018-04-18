@@ -16,7 +16,9 @@ export default (timerState = defaultTimer, action) => {
 
   switch (type) {
     case SET_TIMER:
-      return timerState.merge(payload.timer);
+      return timerState
+        .merge(payload.timer);
+
     default:
       return timerState;
   }
