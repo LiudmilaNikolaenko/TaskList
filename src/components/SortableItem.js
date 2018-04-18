@@ -4,11 +4,11 @@ import Task from './Task';
 import PropTypes from 'prop-types';
 
 const SortableItem = SortableElement(({value}) =>
-    <li><Task id = {value} /></li>
+  <li><Task id = {value} /></li>
 );
 
 SortableItem.propTypes = {
-    value: PropTypes.string
+  value: PropTypes.string
 };
 
 export default SortableItem;

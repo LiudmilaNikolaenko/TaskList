@@ -1,0 +1,14 @@
+{
+  "short_name": "Task list",
+  "name": "Task List with time tracking",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

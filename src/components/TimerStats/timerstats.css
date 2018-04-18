@@ -1,0 +1,36 @@
+.timer_list {
+  margin-top: 20px;
+}
+.timer_list button {
+  line-height: 25px;
+  border: 1px solid white;
+  border-radius: 3px;
+  background-color: transparent;
+  color:#2d3b4d;
+  text-shadow: 1px 1px 3px white;
+  cursor: pointer;
+  outline: none;
+  margin: 0 5px;
+}
+.timer_list button:hover {
+  background-color: #2d3b4d;
+  color: white;
+  text-shadow: 1px 1px 3px #2d3b4d;
+}
+.timer_list span {
+  padding-left: 20px;
+}
+.timer_list table {
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+.timer_list th {
+  padding: 5px 10px;
+  border: 1px solid #2d3b4d;
+  font-weight: bold;
+}
+.timer_list td { 
+  width: 150px;
+  padding: 5px 10px;
+  border: 1px solid #2d3b4d;
+}

@@ -5,5 +5,5 @@ import timer from './timer';
 import timerstats from './timerstats';
 
 export default combineReducers({
-    tasklist, tasks, timer, timerstats
+  tasklist, tasks, timer, timerstats
 });

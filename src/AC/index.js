@@ -8,45 +8,45 @@ export const ADD_TIMER_DATA = 'ADD_TIMER_DATA';
 export const SORT_TASK_LIST = 'SORT_TASK_LIST';
 
 export function addTask(text) {
-    return {
-        type: ADD_TASK,
-        payload: { text },
-        randomId: randomID(24,"0a")
-    }
+  return {
+    type: ADD_TASK,
+    payload: { text },
+    randomId: randomID(24,"0a")
+  }
 };
 
 export function deleteTask(id) {
-    return {
-        type: DELETE_TASK,
-        payload: { id }
-    }
+  return {
+    type: DELETE_TASK,
+    payload: { id }
+  }
 };
 
 export function markTask(id, completed) {
-    return {
-        type: MARK_TASK,
-        payload: { id, completed }
-    }
+  return {
+    type: MARK_TASK,
+    payload: { id, completed }
+  }
 };
 
 export function setTimer(timer) {
-    return {
-        type: SET_TIMER,
-        payload: { timer }
-    }
+  return {
+    type: SET_TIMER,
+    payload: { timer }
+  }
 };
 
 export function addTimerData(timerdata) {
-    return {
-        type: ADD_TIMER_DATA,
-        payload: { timerdata },
-        randomId: randomID(24,"0a")
-    }
+  return {
+    type: ADD_TIMER_DATA,
+    payload: { timerdata },
+    randomId: randomID(24,"0a")
+  }
 };
 
 export function sortTaskList(tasklist) {
-    return {
-        type: SORT_TASK_LIST,
-        payload: { tasklist }
-    }
+  return {
+    type: SORT_TASK_LIST,
+    payload: { tasklist }
+  }
 };
