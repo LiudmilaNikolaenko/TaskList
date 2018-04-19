@@ -32,8 +32,8 @@
 }
 .task__options button {
   line-height: 25px;
-  width: 82px;
-  border: 1px solid white;
+  width: 84px;
+  border: 2px solid white;
   border-radius: 3px;
   background-color: transparent;
   color:#2d3b4d;
